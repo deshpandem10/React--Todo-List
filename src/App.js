@@ -5,12 +5,13 @@ import './App.css'
 
 class App extends Component {
   render() {
+    const todoComponent = todoData.map(() => {
+
+    })
+
     return (
       <div className = "todo-box">
-        <Todo />
-        <Todo />
-        <Todo />
-        <Todo />
+        {todoComponent}
       </div>
     );
   }
