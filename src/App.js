@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import Todo from "./components/Todo.js";
-import './App.css';
+import React, { Component } from 'react'
+import Todo from "./components/Todo.js"
+import todoData from "./components/todoData.js"
+import './App.css'
 
 class App extends Component {
   render() {
